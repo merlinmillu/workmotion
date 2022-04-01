@@ -14,7 +14,7 @@ import com.workmotion.model.Employee;
 import com.workmotion.repository.EmployeeRepository;
 
 @RestController
-@RequestMapping("/api/user")
+@RequestMapping("/workmotion")
 public class EmployeeController extends EmployeeRepository{
 
 	private final static Logger LOGGER = Logger.getLogger(EmployeeController.class.getName());
